@@ -236,10 +236,18 @@ body{
 }
 .wwd-service-wrapper{
 	margin-bottom: 16px;
+	&:hover{
+		.si-icon{
+			transform: scale(1.1);
+		}
+	}
 }
 .service-icon{
 	padding: 8px 0 0 1px;
 	margin-bottom: 10px;
+	.si-icon{
+		transition: transform .1s ease-in-out;
+	}
 	@media (min-width: 768px) { 
 		margin-bottom: 0px;
 	}
